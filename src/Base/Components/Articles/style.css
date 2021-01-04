@@ -1,0 +1,48 @@
+.article {
+  margin: 16px auto;
+  max-width: var(--wrapper-size);
+  display: block;
+  text-decoration: none;
+  position: relative;
+  background-color: var(--color-primary-text);
+  font-size: 0;
+}
+
+.article-info {
+  position: absolute;
+  bottom: 36px;
+  left: 36px;
+  width: 100%;
+}
+
+.article h2 {
+  max-width: 50%;
+  font-size: 3vw;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--color-secondary-text);
+  margin-bottom: 16px;
+}
+
+.article p {
+  max-width: 40%;
+  line-height: 24px;
+  font-size: 1rem;
+  color: var(--color-secondary-text);
+}
+
+.article img {
+  max-width: 100%;
+  height: auto;
+  opacity: 0.6;
+}
+
+@media (max-width: 780px) {
+  .article h2 {
+    max-width: 100%;
+  }
+  .article p {
+    max-width: 70%;
+  }
+}

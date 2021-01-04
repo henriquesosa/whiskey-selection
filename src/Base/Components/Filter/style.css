@@ -1,0 +1,25 @@
+.filter {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 36px;
+  max-width: var(--wrapper-size);
+  flex-wrap: wrap;
+}
+
+.filter span {
+  border: 1px solid var(--color-tertiary-text);
+  color: var(--color-tertiary-text);
+  border-radius: 24px;
+  font-size: 16px;
+  text-transform: capitalize;
+  padding: 8px 16px;
+  margin: 4px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.filter span:hover, .filter span.selected {
+  background-color: var(--color-light-grey);
+  border: 1px solid var(--color-primary-text);
+  color: var(--color-primary-text);
+}

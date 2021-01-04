@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Liquid Team Front-End Position test solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello,
+
+This is my implementation to the proposed test of Liquid Team Front-end Position. I would like to start saying that i used the [create-react-app](https://reactjs.org/docs/create-a-new-react-app.html) to my project bootstrap. Also, i tried to use less libraries as possible, so for this reason, i choose to continue with basic css to my stylesheets, and react hooks to create my state management.
+
+This state and folder structure is the one that i proposed at my current job and it make easier to scale in production systems, and i would love to explain more in further interviews.
+
+Since the `fe-test-one.png` image does not includes any dimensions to the elements. I tried to make it reliable as possible to the original image.
+
+Hope you enjoy it!
 
 ## Available Scripts
 
@@ -13,11 +21,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
 

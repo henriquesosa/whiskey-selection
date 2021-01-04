@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;1,700&display=swap');
+
+:root {
+  --color-primary-text: #000000;
+  --color-secondary-text: #FFFFFF;
+  --color-tertiary-text: #828282;
+  --color-light-grey: #F2F3F3;
+
+  --gradient-islands: linear-gradient(90deg, #D71E44, #9E1B34);
+  --gradient-islay: linear-gradient(90deg, #A5238E, #6E2671);
+  --gradient-highlands: linear-gradient(90deg, #563494, #322773);
+  --gradient-lowlands: linear-gradient(90deg, #0663AE, #174272);
+  --gradient-speyside: linear-gradient(90deg, #1AB467, #007B46);
+  --gradient-campbeltown: linear-gradient(90deg, #F3B41B, #D29D2A);
+
+  --wrapper-size: 1440px;
+}
+
+* {
+  font-family: 'Cabin', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
